@@ -17,8 +17,27 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Video", name: "Video", widget: "string" }
-      - { label: "Video", name: "Video", widget: "string" }
-      - { label: "Blog post content", name: "body", widget: "markdown" }
+      - label: "Testimonials"
+        name: "testimonials"
+        widget: "list"
+        fields:
+          - {
+              label: Quote,
+              name: quote,
+              widget: string,
+              default: "Everything is awesome!",
+            }
+          - label: Author
+            name: author
+            widget: object
+            fields:
+              - { label: Name, name: name, widget: string, default: "Emmet" }
+              - {
+                  label: Avatar,
+                  name: avatar,
+                  widget: image,
+                  default: "/img/emmet.jpg",
+                }
 
   - name: "code"
     label: "Code"
@@ -30,10 +49,4 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Manual PDF"
-        name: "manual_pdf"
-        widget: "file"
-        default: "/uploads/general-manual.pdf"
-        media_library:
-          config:
-            multiple: true
+      - { label: "Video", name: "Video", widget: "string" }
