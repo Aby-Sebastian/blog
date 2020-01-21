@@ -16,6 +16,8 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Video", name: "Video", widget: "string" }
+      - { label: "Video", name: "Video", widget: "Video" }
 
   - name: "code"
     label: "Code"
