@@ -30,4 +30,10 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Video", name: "Video", widget: "string" }
+      - label: "Manual PDF"
+        name: "manual_pdf"
+        widget: "file"
+        default: "/uploads/general-manual.pdf"
+        media_library:
+          config:
+            multiple: true
