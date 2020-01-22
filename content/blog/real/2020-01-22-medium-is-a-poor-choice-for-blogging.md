@@ -5,7 +5,7 @@ description: >-
   Many people choose Medium lately as their go-to platform to blog. Kind of like
   Blogger a while back, it just seems what everybody has been doing (unless you
   are really nit-picky and care enough to host your own thing).
-Video: dsfsd
+Video: 'https://www.youtube.com/watch?v=pOdBeS43W0A'
 testimonials: []
 ---
 Many people choose Medium lately as their go-to platform to blog. Kind of like Blogger a while back, it just seems what everybody has been doing (unless you are really nit-picky and care enough to host your own thing).
