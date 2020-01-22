@@ -50,3 +50,27 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Video", name: "Video", widget: "string" }
+
+  - name: "Testimonial"
+    label: "Testimonials"
+    folder: "content/blog/testimonials"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - label: "Gallery"
+        name: "galleryImages"
+        widget: "list"
+        field: { label: Image, name: image, widget: image }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: false
+        default: ["news"]
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: ["news"]
