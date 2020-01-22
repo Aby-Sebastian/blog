@@ -65,12 +65,24 @@ collections:
         widget: "list"
         field: { label: Image, name: image, widget: image }
       - { label: "Draft", name: "draft", widget: "boolean", default: true }
-      - label: "Tags"
-        name: "tags"
+      - label: "Testimonials"
+        name: "testimonials"
         widget: "list"
-        allow_add: false
-        default: ["news"]
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        default: ["news"]
+        fields:
+          - {
+              label: Quote,
+              name: quote,
+              widget: string,
+              default: "Everything is awesome!",
+            }
+          - label: Author
+            name: author
+            widget: object
+            fields:
+              - { label: Name, name: name, widget: string, default: "Emmet" }
+              - {
+                  label: Avatar,
+                  name: avatar,
+                  widget: image,
+                  default: "/img/emmet.jpg",
+                }
