@@ -6,11 +6,7 @@ description: >-
   Blogger a while back, it just seems what everybody has been doing (unless you
   are really nit-picky and care enough to host your own thing).
 Video: dsfsd
-testimonials:
-  - author:
-      avatar: /img/emmet.jpg
-      name: Emmet
-    quote: Everything is awesome!
+testimonials: []
 ---
 Many people choose Medium lately as their go-to platform to blog. Kind of like Blogger a while back, it just seems what everybody has been doing (unless you are really nit-picky and care enough to host your own thing).
 
@@ -71,3 +67,17 @@ Another interesting point is that they are really eager to block embeds that do 
 Putting letters on a webpage is “impossible” without collecting your profile. Or so they say. Static HTML is not disruptive enough, I guess.
 
 ![sacs](/img/img12.png "acsasa")
+
+And it has been a common theme with them. Instead of becoming nice citizens and do what other websites do, they turned themselves into a closed silo that’s either all or nothing. No RSS. Bad reading experience, and I want to highlight it: it’s bad.**Bad**. Really bad. It’s not good, for*any*meaning of good you can imagine. There’s no person on Earth who could honestly call it at even partially good. Banners all over the place. Aggressive tracking and profiling.
+
+*UPD: Cookie banner. Really slow UI for replies/discussions. Other people highlights that interrupt your reading flow.*
+
+![sfd](/img/img13.png "sfd")
+
+*Each one of your readers*will have to go through*ALLTHATEACHTIME*just to occasionally read a couple of paragraphs of text. It’s fascinating, really, how they managed to make plain text so complicated.
+
+Sure, Medium editor is nice. Typography is good (for English, other languages are not supported). Publishing is free. So the ones who pay for all that are your readers.*Basically, you’re selling readers to aggressive Medium self-advertising so that Medium could make laughably small money from a miserable fraction of them. And annoy the hell out of everyone else.*
+
+![dasd](/img/img14.png "afas")
+
+Next time you think of publishing anything on the web, please, please, PLEASE consider something else.
