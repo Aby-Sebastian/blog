@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Video from "../components/video"
 
 class NotFoundPage extends React.Component {
   render() {
@@ -14,6 +15,10 @@ class NotFoundPage extends React.Component {
         <SEO title="404: Not Found" />
         <h1>Not Found</h1>
         <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+        <Video
+          videoSrcURL="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          videoTitle="Official Music Video on YouTube"
+        />
       </Layout>
     )
   }
