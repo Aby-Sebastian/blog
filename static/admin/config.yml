@@ -64,7 +64,7 @@ collections:
         name: "galleryImages"
         widget: "list"
         field: { label: Image, name: image, widget: image }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+
       - label: "Testimonials"
         name: "testimonials"
         widget: "list"
