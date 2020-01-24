@@ -42,7 +42,7 @@ collections:
 
   - name: "code"
     label: "Code"
-    folder: "content/blog/fake"
+    folder: "content/blog/code"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
