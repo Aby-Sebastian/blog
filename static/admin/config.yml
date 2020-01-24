@@ -100,7 +100,7 @@ collections:
 
   - name: "logo"
     label: "Logo"
-    folder: "content/assets/logo/"
+    folder: "content/blog/logo/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
