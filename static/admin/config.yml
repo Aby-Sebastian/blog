@@ -6,27 +6,7 @@ backend:
 media_folder: static/img
 public_folder: /img
 
-collections:
-  - name: "img" # used in routes eg: admin/collection/blog
-    label: "Img" # used in UserInterfaces
-    media_folder: static/img/one
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # filename template etc.
-    fields: # the fields for each document, usualy in frontmatter
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: Image, name: image, widget: image }
-      - { label: Alt, name: alt, widget: string }
-
-  - name: "two" # used in routes eg: admin/collection/blog
-    label: "Two" # used in UserInterfaces
-    media_folder: static/img/two
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # filename template etc.
-    fields: # the fields for each document, usualy in frontmatter
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: Image, name: image, widget: image }
-      - { label: Alt, name: alt, widget: string }
-    
+collections:  
   - name: "blog" # used in routes eg: admin/collection/blog
     label: "Blog" # used in UserInterfaces
     folder: "content/blog/real/" # the path to folder
