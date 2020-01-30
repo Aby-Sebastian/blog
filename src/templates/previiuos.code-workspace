@@ -1,0 +1,20 @@
+{
+  "folders": [
+	{
+		"path": "/home/opnlabs/github/gatsby/gatsby-starter-netlify-cms"
+	},
+	{
+		"path": "/home/opnlabs/Desktop/my-hello-world-starter"
+	},
+	{
+		"path": "/home/opnlabs/github/gatsby/crash_course"
+	},
+	{
+		"path": "/home/opnlabs/github/gatsby/blog"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "blog",
+    "editor.formatOnSave": true
+  }
+}
