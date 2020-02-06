@@ -40,6 +40,25 @@ class BlogPostTemplate extends React.Component {
           </header>
 
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
+          <div>
+            <h4>{post.frontmatter.Video} : Video</h4>
+          </div>
+          <div>
+            <h4>{post.frontmatter.draft}</h4>
+          </div>
+          <div>
+            <h4>{post.frontmatter.galleryImages}</h4>
+          </div>
+          <div>
+            <h4>{post.frontmatter.tags}</h4>
+          </div>
+          <div>
+            <h4>{post.frontmatter.youtube}</h4>
+          </div>
+          <div>
+            <img src={post.frontmatter.image.image} alt={post.frontmatter.image.alt} />
+          </div>
+          
           <hr
             style={{
               marginBottom: rhythm(1),
@@ -100,6 +119,15 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         Video
+        image{
+          alt
+          image
+        }
+        draft
+        galleryImages
+        tags
+        
+        youtube
       }
     }
   }
