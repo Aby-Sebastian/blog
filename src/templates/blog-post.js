@@ -45,6 +45,7 @@ class BlogPostTemplate extends React.Component {
               marginBottom: rhythm(1),
             }}
           />
+          <video src={post.frontmatter.Video}></video>
           <footer>
             <Bio />
           </footer>
