@@ -65,6 +65,9 @@ collections:
         name: "galleryImages"
         widget: "list"
         field: { label: Image, name: image, widget: image }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
 
       - label: "Testimonials"
         name: "testimonials"
