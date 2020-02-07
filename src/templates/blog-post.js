@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import '../components/style.css'
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -30,7 +31,7 @@ class BlogPostTemplate extends React.Component {
             </h1>
             <p
               style={{
-                ...scale(-1 / 5),
+                
                 display: `block`,
                 marginBottom: rhythm(1),
               }}
@@ -40,6 +41,23 @@ class BlogPostTemplate extends React.Component {
           </header>
 
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
+          <div>
+            <h4>{post.frontmatter.Video} : Video</h4>
+          </div>
+          <div>
+            <h4>{post.frontmatter.draft}</h4>
+          </div>
+          <div>
+            <h4>{post.frontmatter.galleryImages}</h4>
+          </div>
+          <div>
+            <h4>{post.frontmatter.tags}</h4>
+          </div>
+          <div>
+            <h4>{post.frontmatter.youtube}</h4>
+          </div>
+          
+          
           <hr
             style={{
               marginBottom: rhythm(1),
@@ -100,6 +118,12 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         Video
+        
+        draft
+        galleryImages
+        tags
+        
+        youtube
       }
     }
   }
