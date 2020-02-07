@@ -100,6 +100,10 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "youtube", name: "youtube", widget: "markdown" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: ["news"]
 
   - name: "logo"
     label: "Logo"
